@@ -1,3 +1,4 @@
+import TemperatureChangeCompare
 def interface():
     print("=" * 80)
     print("|"+ " "*78 + "|")
@@ -8,7 +9,7 @@ def interface():
     if choice=="1":
         print("Program 1")
     elif choice=="2":
-        print("Program 2")
+        TemperatureChangeCompare.tempcompare()
     elif choice=="3":
         print("Program 3")
     elif choice=="4":
