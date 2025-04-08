@@ -4,7 +4,7 @@ import pandas as pd
 def tempperyear():
 #Read in the dataset from the csv file 
 
-  df = pd.read_csv("M:\csws\matplot\Environment_Temperature_change_E_All_Data_NOFLAG.csv",encoding='latin1') 
+  df = pd.read_csv("Environment_Temperature_change_E_All_Data_NOFLAG.csv",encoding='latin1') 
 
 #read in the data for temperature changes and reset column headers for years as the preset ones returned errors 
 
