@@ -6,7 +6,7 @@ def interface():
     print("|"+ " "*26 + "Temperature Change Dataset" + " "*26 + "|")
     print("|"+ " "*78 + "|")
     print("=" * 80)
-    choice=str(input("\n\nWhich program would you like to access? \n<1>Temperature Peaks \n<2> \n<3> \n<4> \n<5> \n"))
+    choice=str(input("\n\nWhich program would you like to access? \n<1>Temperature Peaks \n<2>Temperature Comparisons \n<3> \n<4> \n<5> \n"))
     if choice=="1":
         temperaturedeviation.tmpdev()
     elif choice=="2":
