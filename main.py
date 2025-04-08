@@ -12,7 +12,7 @@ def interface():
     elif choice=="2":
         TemperatureChangeCompare.tempcompare()
     elif choice=="3":
-        print("Program 3")
+        CompareTwoCountriesOverFourYears.fourCountriesCompareTwo()
     elif choice=="4":
         print("Program 4")
     elif choice=="5":
