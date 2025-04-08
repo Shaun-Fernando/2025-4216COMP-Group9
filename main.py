@@ -1,5 +1,6 @@
 import TemperatureChangeCompare
 import temperaturedeviation
+import TemperaturePerYear
 def interface():
     print("=" * 80)
     print("|"+ " "*78 + "|")
@@ -14,7 +15,7 @@ def interface():
     elif choice=="3":
         print("Program 3")
     elif choice=="4":
-        print("Program 4")
+        TemperaturePerYear.tempperyear()
     elif choice=="5":
         print("Program 5")
     else: #in case the user inputs the wrong value
