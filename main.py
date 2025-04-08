@@ -1,4 +1,4 @@
-import tmpdeviation
+import temperaturedeviation
 def interface():
     print("=" * 80)
     print("|"+ " "*78 + "|")
@@ -7,7 +7,7 @@ def interface():
     print("=" * 80)
     choice=str(input("\n\nWhich program would you like to access? \n<1>Temperature Peaks \n<2> \n<3> \n<4> \n<5> \n"))
     if choice=="1":
-        tmpdeviation.tmpdev()
+        temperaturedeviation.tmpdev()
     elif choice=="2":
         print("Program 2")
     elif choice=="3":
