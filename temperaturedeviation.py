@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+#download the FAOSTAT_data_1-10-2022.csv file (too big for github) and import it
 
 def tempdev():
     country = input("What country would you like to look at? ") #user input
