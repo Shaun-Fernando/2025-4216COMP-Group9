@@ -1,4 +1,4 @@
-import TemperatureChangeCompare
+import TemperatureChangeCompareDaniel
 import temperaturedeviation
 import TemperaturePerYear
 import CompareTwoCountriesOverFourYears
@@ -12,7 +12,7 @@ def interface():
     if choice=="1":
         temperaturedeviation.tmpdev()
     elif choice=="2":
-        TemperatureChangeCompare.tempcompare()
+        TemperatureChangeCompareDaniel.tempcompare()
     elif choice=="3":
         CompareTwoCountriesOverFourYears.fourCountriesCompareTwo()
     elif choice=="4":
