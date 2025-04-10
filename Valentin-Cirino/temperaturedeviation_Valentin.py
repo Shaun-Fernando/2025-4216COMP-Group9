@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-#Extract the FAOSTAT_data_1-10-2022.csv file from the dataset.zip folder (FAOSTAT_data_1-10-2022 Branch, file was too big for github)
+#Extract the FAOSTAT_data_1-10-2022.csv file from the dataset.zip folder (FAOSTAT_data_1-10-2022 Branch, or in the Valentin-Cirino Folder)
 
 def tempdev():
     country = input("What country would you like to look at? ") #user input
