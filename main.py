@@ -10,7 +10,7 @@ def interface():
     print("=" * 80)
     choice=str(input("\n\nWhich program would you like to access? \n<1>Temperature Peaks \n<2>Temperature Comparisons \n<3>Four Year Comparison \n<4>Temperature Per Year \n<5>Cumulative Temperature change for Continents \n<6>Basic Area Comparing\n"))
     if choice=="1":
-        temperaturedeviation.tmpdev()
+        temperaturedeviation.tempdev()
     elif choice=="2":
         TemperatureChangeCompareDaniel.tempcompare()
     elif choice=="3":
