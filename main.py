@@ -23,5 +23,6 @@ def interface():
         search_Shaun.searchCompare()
     
     else: #in case the user inputs the wrong value
-        print("Incorrect Value, restarting: \n")
+        print("Incorrect Value, restarting: \n")#
+        interface()
 interface()
