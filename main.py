@@ -18,9 +18,9 @@ def interface():
     elif choice=="4":
         TemperaturePerYear.tempperyear()
     elif choice=="5":
-        cumulativeContinents_Shaun.cumulativeContinents()
+        cumulativeContinents.cumulativeContinents()
     elif choice=="6":
-        search_Shaun.searchCompare()
+        search.searchCompare()
     
     else: #in case the user inputs the wrong value
         print("Incorrect Value, restarting: \n")#
