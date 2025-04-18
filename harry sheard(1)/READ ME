@@ -1,2 +1,4 @@
 
 My visualisations are clearly in my folder, their module names however are Tempanonolyscomparedtoaverage.py and longtermaverage.py.
+Instruction on use : To use the anomoly visulisation you must first select a country from the given list, once you have done this the program will generate a graph for you and populate the graph with the chosen data.
+To use the other visulisation program it is exactly the same steps.
