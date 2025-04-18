@@ -33,7 +33,7 @@ def plot_temperature_trend(temp_data, country):
     plt.tight_layout()
     plt.show()
 
-# 👇 Wrap everything in a callable function
+
 def temp_anomalies_lowest():
     df = load_data()
     countries = get_countries(df)
@@ -46,6 +46,6 @@ def temp_anomalies_lowest():
     temp_data = get_lowest_yearly_temps(df, selected_country)
     plot_temperature_trend(temp_data, selected_country)
 
-# Optional standalone run
+
 if __name__ == "__main__":
     temp_anomalies_lowest()
